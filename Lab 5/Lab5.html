@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 5, CSS</title>
+    <style>
+        h1.title{color: bisque; background-color: black; font-family:Arial, Helvetica, sans-serif ;}
+        h1{text-align: center;}
+        p{color: blue;}
+        p.info{color: blueviolet; text-align: right; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: italic;}
+        body {background-color: aquamarine;}
+        p.msg{font-family: "arial black";}
+        p#parag{font-weight: bolder; color: black;}
+        .qcc{font-size: 250%;}
+        .qcc2{font-size: 3rem;} 
+        .name1, .name2, .name3, .name4, .name5, .name6 {font-size: 50px; text-align: center;}
+        .name1{text-shadow: 10px 0px 5px red;}
+        .name2{text-shadow: -10px 10px 5px red;}
+        .name3{text-shadow: 10px -10px 5px red;}
+        .name4{text-shadow: 10px -10px 5px red;}
+        .name5{text-shadow: 10px -10px 20px red;}
+        .name6{text-shadow: 0px 0px 5px 3px red;}
+        .square1, .square2, .square3 {height: 200px; width: 200px; background-color: black; color: aqua;}
+        .square1{border: yellow 30px groove; margin-left: 100px ; padding-top: 50px;}
+        .square2{border: dotted 20px purple; margin: 50px 200px;padding: 20px;}
+        .square3 {border: inset 30px orange ; margin: 20px auto; padding: 20px 50px;}
+        .image1, .image2, .image3, .image4 {width: 300px; height: 200px;}
+        
+    </style>
+</head>
+<body>
+    <h1>Cascading Style Sheet, CSS</h1>
+    <h1 class="title">Dogs</h1>
+    <p class="msg">A dog’s sense of smell is legendary, but did you know that their nose has as many as 300 million receptors? In comparison, a human nose has about 5 million.</p>
+    <p class="info">Human blood pressure goes down when petting a dog. And so does the dogs.</p>
+    <p id="parag">A person who hunts with a Beagle is known as a “Beagler".</p>
+    <p class="qcc1">Queensborough Community College</p>
+    <p class="qcc2"> Queensborough Community College</p>
+    <p class="qcc3"> Queensborough Community College</p>
+    <h2>Text shadow</h2>
+    <p class="name1">Elias Muniz</p>
+    <p class="name2">Elias Muniz</p>
+    <p class="name3">Elias Muniz</p>
+    <p class="name4">Elias Muniz</p>
+    <p class="name5">Elias Muniz</p>
+    <p class="name6">Elias Muniz</p>
+    <h2>Border, margin, padding</h2>
+    <div class="square1">A dog’s sense of smell is legendary, but did you know that their nose has as many as 300 million receptors? In comparison, a human nose has about 5 million</div>
+    <div class="square2">A dog’s sense of smell is legendary, but did you know that their nose has as many as 300 million receptors? In comparison, a human nose has about 5 million</div>
+    <div class="square3">A dog’s sense of smell is legendary, but did you know that their nose has as many as 300 million receptors? In comparison, a human nose has about 5 million</div>
+    <hr>  
+    <style>
+        h1.flamingo{color: rgb(255, 0, 221);background-color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; }
+        h1.flamingo{text-align: center;}
+        h1.flamingo{text-shadow: 10px -10px 5px;}
+        h1.flamingo{font-size: 250%;}
+        .parag{height: 300px; width: 300px; color: rgb(0, 46, 46);font-family: fantasy; }
+        .parag{padding: 50px 530px ; font-size: large;}
+        p{text-align: center; color: rgb(104, 0, 64);}
+        .image1, .image2, .image3, .image4 {height: 200px; width: 200px; background-color: whitesmoke; color:pink;}
+        .image1{border: plum 30px groove; margin-left: 5px ; padding-top: 5px;}
+        .image2{border: dotted 30px pink; margin-left: 5px ; padding-top: 5px;}
+        .image3{border: inset 30px blue; margin-left: 5px ; padding-top: 5px;}
+        .image4{border: orange 30px groove; margin-left: 5px ; padding-top: 5px;}
+    </style>
+    <h1>Lab Exercise </h1>
+    <h1 class="flamingo">Flamingo </h1>
+    <p > Here's a few things about flamingoes </p>
+    <div class="parag">Flamingos or flamingoes are a type of wading bird in the family Phoenicopteridae, which is the only extant family in the order Phoenicopteriformes. There are four flamingo species distributed throughout the Americas, and two species native to Afro-Eurasia. </div>
+    <figure>
+        <figcaption>Regaular Photo of a Flamingo</figcaption> 
+        <img class="image1" src="Images/Flamingo1.jpg" alt="Image of a Flamingo">
+         <figcaption>In the sunlight</figcaption>
+        <img class="image2" src="Images/Flamingo2.jpg" alt="image of another flamingo">
+        <figcaption class="Text">Flamingoes</figcaption>
+        <img class="image3" src="Images/Flamingo3.jpg" alt="Another image of a Flamingo">
+        <figcaption>Flamingoes</figcaption>
+        <img class="image4" src="Images/Flamingo4.jpg" alt="And another">
+    </figure>
+    <figcaption>
+
+    </figcaption>
+</body>
+</html>
