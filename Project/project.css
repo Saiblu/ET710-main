@@ -36,6 +36,9 @@ body {
     vertical-align: middle;
     margin: 0;
 }
+img :hover{
+    background-color:grey;
+}
 .sectionbuttonlink :hover{
     background-color: grey;
     color: red;
@@ -147,7 +150,7 @@ dl {
 }
 
 @media only screen and(max-width: 800px) {
-    
+    .maincontainer{}
 }
 h1 {
     display: block;
@@ -206,6 +209,15 @@ footer div {
 .ftitle2 {
     color: white;
     text-decoration:none;
+}
+.list1, .list2 {
+    justify-content:space-evenly ;
+    display: flex;
+    text-align: justify;
+    font: 100;
+}
+.facts {
+    text-align: center;
 }
 
 
